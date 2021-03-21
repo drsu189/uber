@@ -1,0 +1,62 @@
+@mixin black__label
+  width: 115px
+  height: 27px
+  background: $color_black
+  font-weight: normal
+  font-size: 11px
+  text-align: center
+  text-transform: uppercase
+  color: $color_white
+  margin: 18px auto 0 auto
+  display: flex
+  justify-content: center
+  align-items: center
+
+@mixin white__label
+  width: 115px
+  height: 27px
+  background: $color_white
+  font-weight: normal
+  font-size: 11px
+  text-align: center
+  text-transform: uppercase
+  color: #070716
+  margin: 18px auto 0 auto
+  display: flex
+  justify-content: center
+  align-items: center 
+
+@mixin black__title
+  font-weight: bold
+  font-size: 38px
+  text-align: center
+  text-transform: uppercase
+  color: #222222
+  margin-top: 33px
+
+@mixin white__title
+  font-weight: bold
+  font-size: 38px
+  text-align: center
+  text-transform: uppercase
+  color: $color_white
+  margin-top: 33px 
+
+@mixin black__subtitle
+  font-weight: normal
+  font-size: 17px
+  text-align: center
+  color: #222222
+  margin-top: 19px
+
+@mixin white__subtitle
+  font-weight: normal
+  font-size: 17px
+  text-align: center
+  color: $color_white
+  margin-top: 19px
+
+@mixin btn__hover
+  &:hover
+    background-image: none
+    background-color: $color_blue
